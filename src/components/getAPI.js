@@ -7,7 +7,7 @@ const getLanguages = async (url) => {
     },
   }).catch(err => {console.log(err)});
 
-  return languages;
+  return languages.data;
 }
 
 const getAPI = async () => {
@@ -16,10 +16,14 @@ const getAPI = async () => {
       Authorization: 'Basic V2luZG93bWFj',
     },
   }).catch(err => {console.log(err)});
+  console.log('repos are: ', repos);
 
-
-  console.log(repos);
-  return repos;
+  const languages = [];
+  repos.data.forEach(async (repo) => await getLanguages(repo.languages_url).then((obj) => {
+    languages.push(obj);
+  }));
+  console.log('languages are: ', languages);
+  return languages;
 };
 
 export default getAPI;
