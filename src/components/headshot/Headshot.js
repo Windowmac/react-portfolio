@@ -1,9 +1,9 @@
 import './Headshot.css';
 
 const Headshot = () => (
-  <div class="box">
-    <article class="media">
-      <div class="media-left">
+  <div className="box">
+    <article className="media">
+      <div className="media-left">
         <figure>
           <img
             id="headshot"
@@ -12,8 +12,8 @@ const Headshot = () => (
           ></img>
         </figure>
       </div>
-      <div class="media-content">
-        <div class="content">
+      <div className="media-content">
+        <div className="content">
           <h1>McKendree "Mac" Strommer</h1>
           <p>
             A Web Developer, proficient in MERN FullStack - Ready to learn,
