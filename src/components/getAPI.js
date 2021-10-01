@@ -18,9 +18,15 @@ const getAPI = async () => {
   }).catch(err => {console.log(err)});
   console.log('repos are: ', repos);
 
-  const languages = [];
+  const languages = {};
   repos.data.forEach(async (repo) => await getLanguages(repo.languages_url).then((obj) => {
-    languages.push(obj);
+    for (const key in obj){
+      if(languages[key]){
+        languages[key] += obj[key];
+      } else {
+        languages[key] = obj[key];
+      }
+    }
   }));
   console.log('languages are: ', languages);
   return languages;
