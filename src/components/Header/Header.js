@@ -5,7 +5,7 @@ const Header = (props) => (
   <section className="section">
     <div className="box">
       <Headshot />
-      <Nav sectionDisplay={props.sectionDisplay} handleSectionDisplay={props.handleSectionDisplay}/>
+      <Nav setSectionDisplay={props.setSectionDisplay}/>
     </div>
   </section>
 );
