@@ -23,10 +23,8 @@ const getAPI = async () => {
     })
     .catch(console.log);
 
-  console.log('repos are: ', repos);
   const languages = {};
-  const langArray = repos.data.map((repo) => getLanguages(repo.languages_url));
-  console.log('langArr: ', langArray);
+  const langArray = repos.data.map((repo) => getLanguages(repo.languages_url).catch(console.error));
 
   await Promise.all(langArray).then((langArray) => {
     langArray.forEach((lang) => {
@@ -40,7 +38,6 @@ const getAPI = async () => {
     });
   });
 
-  console.log('languages are: ', languages);
   return languages;
 };
 

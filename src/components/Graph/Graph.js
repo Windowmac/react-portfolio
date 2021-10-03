@@ -6,32 +6,40 @@ const Graph = (props) => {
   return (
     <div>
       <div>
-        <canvas id="myChart"></canvas>
+        <canvas
+          id="myChart"
+          style={{ width: '500px', height: '500px' }}
+        ></canvas>
       </div>
       {useEffect(() => {
-
         const buildGraph = (langObj) => {
-
-          console.log('langObj is: ', langObj);
           const labels = Object.keys(langObj);
           const dataSet = Object.values(langObj);
-          console.log('dataSet is: ', dataSet);
-          console.log('labels are: ', labels);
 
           const data = {
             labels: labels,
             datasets: [
               {
                 label: 'Github Languages',
-                backgroundColor: 'rgb(255, 99, 132)',
-                borderColor: 'rgb(255, 99, 132)',
+                backgroundColor: [
+                  'rgb(0, 0, 0)',
+                  'whitesmoke',
+                  'olive',
+                  'violet',
+                  'gold'
+                ],
+                borderColor: 'gold',
                 data: dataSet,
+                hoverOffset: 4,
               },
             ],
           };
           const config = {
-            type: 'pie',
+            type: 'doughnut',
             data: data,
+            options: {
+              responsive: false,
+            },
           };
 
           new Chart(document.getElementById('myChart'), config);

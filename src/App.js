@@ -1,15 +1,15 @@
 import 'bulma/css/bulma.min.css';
 import Header from './components/Header/Header';
 import { useState } from 'react';
-import Graph from './components/Graph/Graph';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
+import Columns from './components/Columns/Columns';
 
 const App = () => {
   const handleSectionDisplay = (displayState) => {
     const displayDirections = {
-      'Tech Stack': () => <Graph sectionDisplay={sectionDisplay}/>,
+      'Tech Stack': () => <Columns />,
       'Projects': () => <Projects sectionDisplay={sectionDisplay}/>,
       'Contact': () => <Contact sectionDisplay={sectionDisplay}/>,
       'Resume': () => <Resume sectionDisplay={sectionDisplay}/>
