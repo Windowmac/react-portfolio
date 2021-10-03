@@ -1,3 +1,5 @@
+import klettersteigPic from './images/KlettersteigLogIn.PNG';
+
 const SecondProject = () => (
   <div
     className="box project-box"
@@ -10,7 +12,7 @@ const SecondProject = () => (
             <img
               style={{ width: '250px', height: '150px' }}
               className="project-pic"
-              src="/images/KlettersteigLogIn.png"
+              src={klettersteigPic}
               alt="Klettersteig login page"
             />
           </figure>

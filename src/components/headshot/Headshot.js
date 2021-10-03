@@ -1,4 +1,5 @@
 import './Headshot.css';
+import headshotPic from './Headshot-cropped.jpg'
 
 const Headshot = () => (
   <div className="box">
@@ -7,7 +8,7 @@ const Headshot = () => (
         <figure>
           <img
             id="headshot"
-            src="/images/Headshot-cropped.jpg"
+            src={headshotPic}
             alt="Headshot"
           ></img>
         </figure>

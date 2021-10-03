@@ -1,4 +1,7 @@
 import './Resume.css';
+import resumeImg from './resume-img.png';
+import resumePdf from './Full-Stack-Resume.pdf'
+
 
 const Resume = (props) => (
   <div className="box" style={{ background: 'black' }}>
@@ -9,10 +12,10 @@ const Resume = (props) => (
       >
         <figure>
           <a
-            href="/Full-Stack-Resume.pdf"
+            href={resumePdf}
             download
           >
-            <img id="resume-pic" src="/images/resume-img.png" alt="resume!" />
+            <img id="resume-pic" src={resumeImg} alt="resume!" />
           </a>
         </figure>
       </div>

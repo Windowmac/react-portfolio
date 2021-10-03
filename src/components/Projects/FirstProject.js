@@ -1,3 +1,5 @@
+import soundgraphImg from './images/soundgraph-play.png';
+
 const FirstProject = () => (
   <div
     className="box project-box"
@@ -12,8 +14,8 @@ const FirstProject = () => (
           >
             <img
               className="project-pic"
-              src="/images/soundgraph-play.png"
-              alt="project pic"
+              src={soundgraphImg}
+              alt="soundgraph pic"
             />
           </figure>
         </div>

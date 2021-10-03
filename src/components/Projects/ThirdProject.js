@@ -1,3 +1,5 @@
+import doggoPic from './images/Doggo-finder-page1.png';
+
 const ThirdProject = () => (
     <div
       className="box project-box"
@@ -12,7 +14,7 @@ const ThirdProject = () => (
             >
               <img
                 className="project-pic"
-                src="/images/Doggo-finder-page1.png"
+                src={doggoPic}
                 alt="Doggo Finder first page"
               />
             </figure>
