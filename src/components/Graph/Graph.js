@@ -9,26 +9,23 @@ const Graph = (props) => {
         <canvas id="myChart"></canvas>
       </div>
       {useEffect(() => {
-        const getLanguages = async () => {
-          const languages = await getAPI();
-          return languages;
-        };
 
         const buildGraph = (langObj) => {
+
           console.log('langObj is: ', langObj);
-          const labels = Object.keys(langObj).map((key) => key);
-          const dataSet = Object.values(langObj).map((val) => val);
-          console.log('labels are: ', Object.keys(langObj));
-          console.log('dataSet is: ', Object.values(langObj));
+          const labels = Object.keys(langObj);
+          const dataSet = Object.values(langObj);
+          console.log('dataSet is: ', dataSet);
+          console.log('labels are: ', labels);
 
           const data = {
-            labels: ['red', 'yellow', 'blue'],
+            labels: labels,
             datasets: [
               {
                 label: 'Github Languages',
                 backgroundColor: 'rgb(255, 99, 132)',
                 borderColor: 'rgb(255, 99, 132)',
-                data: [0, 12, 25],
+                data: dataSet,
               },
             ],
           };
@@ -40,7 +37,7 @@ const Graph = (props) => {
           new Chart(document.getElementById('myChart'), config);
         };
 
-        return getLanguages().then(buildGraph);
+        return getAPI().then(buildGraph);
       }, [])}
       {props.sectionDisplay}
     </div>
