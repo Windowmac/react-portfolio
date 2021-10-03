@@ -1,8 +1,14 @@
-import FirstProject from "./FirstProject";
-import './Projects.css'
+import FirstProject from './FirstProject';
+import './Projects.css';
+import SecondProject from './SecondProject';
+import ThirdProject from './ThirdProject';
 
 const Projects = (props) => (
-  <FirstProject />
+  <>
+    <FirstProject />
+    <SecondProject />
+    <ThirdProject />
+  </>
 );
 
 export default Projects;

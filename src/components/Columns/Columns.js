@@ -1,7 +1,7 @@
 import Graph from "../Graph/Graph";
 import TechStack from "../TechStack/TechStack";
 const Columns = () => (
-    <>
+    <div className="box" style={{background: 'black', margin: '25px', color: 'whitesmoke'}}>
         <div className="columns">
             <div className="column">
                 <Graph />
@@ -10,7 +10,7 @@ const Columns = () => (
                 <TechStack />
             </div>
         </div>
-    </>
+    </div>
 );
 
 export default Columns;

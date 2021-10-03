@@ -1,10 +1,11 @@
 import getAPI from '../getAPI';
 import { useEffect } from 'react';
 import Chart from 'chart.js/auto';
+import './Graph.css';
 
 const Graph = (props) => {
   return (
-    <div>
+    <div className="box" id="graph-bg">
       <div>
         <canvas
           id="myChart"

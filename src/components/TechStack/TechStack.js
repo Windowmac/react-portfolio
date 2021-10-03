@@ -3,7 +3,7 @@ const TechStack = () => (
     <h4>
       Languages: Javascript, HTML/CSS, JSX, SQL Applications: MERN Stack,
     </h4>
-    <h4>Serverless Architecture, GraphQL, Firebase, Handlebar</h4>
+    <h4>Serverless Architecture, GraphQL, Firebase, Handlebars</h4>
   </div>
 );
 

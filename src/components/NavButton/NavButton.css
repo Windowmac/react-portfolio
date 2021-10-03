@@ -1,6 +1,13 @@
 .nav-button {
-    border-left: solid black 2px;
-    border-right: solid black 2px;
-    border-top: solid black 0px;
-    border-bottom: solid black 0px;
+    border-left: solid gold 2px;
+    border-right: solid gold 2px;
+    border-top: solid gold 0px;
+    border-bottom: solid gold 0px;
+    color: whitesmoke;
+}
+
+.nav-button:hover {
+    background: linear-gradient(0.25turn, gold, black, gold);
+    text-shadow: 1px 1px 0px black;
+    cursor: pointer;
 }
