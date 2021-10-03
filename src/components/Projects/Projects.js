@@ -1,8 +1,8 @@
+import FirstProject from "./FirstProject";
+import './Projects.css'
 
 const Projects = (props) => (
-    <div>
-        {props.sectionDisplay}
-    </div>
+  <FirstProject />
 );
 
 export default Projects;

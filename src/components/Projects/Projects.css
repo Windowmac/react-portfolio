@@ -1,0 +1,9 @@
+.project-link-tag {
+    margin: 20px;
+}
+
+.project-box:hover {
+    top: 5px;
+    box-shadow: 0px -5px 5px black;
+    transition: all 0.2s ease-out;
+}

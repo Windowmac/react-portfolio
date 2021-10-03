@@ -10,7 +10,7 @@ const App = () => {
   const handleSectionDisplay = (displayState) => {
     const displayDirections = {
       'Tech Stack': () => <Columns />,
-      'Projects': () => <Projects sectionDisplay={sectionDisplay}/>,
+      'Projects': () => <Projects />,
       'Contact': () => <Contact sectionDisplay={sectionDisplay}/>,
       'Resume': () => <Resume sectionDisplay={sectionDisplay}/>
     };
