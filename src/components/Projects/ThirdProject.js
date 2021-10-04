@@ -6,11 +6,10 @@ const ThirdProject = () => (
       style={{ margin: '2rem', padding: '1.25rem' }}
     >
       <div className="box">
-        <article className="media">
-          <div className="media-left">
+        <div className="columns">
+          <div className="column">
             <figure
               className="image"
-              style={{ width: '250px', height: '150px' }}
             >
               <img
                 className="project-pic"
@@ -19,8 +18,8 @@ const ThirdProject = () => (
               />
             </figure>
           </div>
-          <div className="media-content">
-            <div className="content">
+          <div className="column">
+
               <p>
                 <strong>Doggo Finder</strong>{' '}
                 <small>
@@ -47,9 +46,8 @@ const ThirdProject = () => (
                 <strong>Stack: </strong>
                 Materialize CSS, JavaScript, HTML, RESTful APIs
               </p>
-            </div>
           </div>
-        </article>
+        </div>
       </div>
     </div>
   );
