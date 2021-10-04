@@ -9,7 +9,6 @@ const Graph = (props) => {
       <div>
         <canvas
           id="myChart"
-          style={{ width: '500px', height: '500px' }}
         ></canvas>
       </div>
       {useEffect(() => {
@@ -38,9 +37,6 @@ const Graph = (props) => {
           const config = {
             type: 'doughnut',
             data: data,
-            options: {
-              responsive: false,
-            },
           };
 
           new Chart(document.getElementById('myChart'), config);
