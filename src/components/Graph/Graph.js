@@ -44,7 +44,6 @@ const Graph = (props) => {
 
         return getAPI().then(buildGraph);
       }, [])}
-      {props.sectionDisplay}
     </div>
   );
 };

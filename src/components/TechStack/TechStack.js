@@ -1,9 +1,13 @@
 const TechStack = () => (
   <div>
-    <h4>
-      Languages: Javascript, HTML/CSS, JSX, SQL Applications: MERN Stack,
-    </h4>
-    <h4>Serverless Architecture, GraphQL, Firebase, Handlebars</h4>
+    <div className="block">
+      <h4>
+        <strong style={{color: "whitesmoke"}}>Languages:</strong> Javascript, HTML/CSS, JSX, SQL 
+      </h4>
+    </div>
+    <div className="block">
+      <h4><strong style={{color: "whitesmoke"}}>Applications:</strong> MERN Stack, Serverless Architecture, GraphQL, Firebase, Handlebars</h4>
+    </div>
   </div>
 );
 
