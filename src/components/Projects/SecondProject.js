@@ -1,4 +1,4 @@
-import klettersteigPic from './images/KlettersteigLogIn.PNG';
+import arcadeLiteImg from './images/Arcade-Lite-img.png';
 
 const SecondProject = () => (
   <div
@@ -11,18 +11,18 @@ const SecondProject = () => (
           <figure className="image">
             <img
               className="project-pic"
-              src={klettersteigPic}
-              alt="Klettersteig login page"
+              src={arcadeLiteImg}
+              alt="Tetris!"
             />
           </figure>
         </div>
         <div className="column">
           <p>
-            <strong>Klettersteig</strong>{' '}
+            <strong>Arcade-Lite</strong>{' '}
             <small>
               <a
                 className="project-link-tag"
-                href="https://github.com/Windowmac/Klettersteig"
+                href="https://github.com/Windowmac/arcade-lite"
               >
                 github
               </a>
@@ -30,17 +30,16 @@ const SecondProject = () => (
             <small>
               <a
                 className="project-link-tag"
-                href="https://sheltered-badlands-95600.herokuapp.com/"
+                href="https://arcade-lite.herokuapp.com/"
               >
                 deployed
               </a>
             </small>
-            <br />A hiking app designed to deliver hikes near the user as well
-            as allow them to save favorites/pictures to the app
+            <br />A React app designed to play Tetris! Uses Context API to change state and set timers/ check piece movement. Top scores stored in MongoDB via Apollo Client
           </p>
           <p>
             <strong>Stack: </strong>
-            SQL, Express, Node, HTML/CSS, Firebase, Sequelize, Handlebars
+            GraphQL, React, Apollo Server/Client, Mongoose, Context API
           </p>
         </div>
       </div>
