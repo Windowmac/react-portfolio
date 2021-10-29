@@ -39,6 +39,7 @@ const ThirdProject = () => (
                   </a>
                 </small>
                 <br />
+                A team built application. A showcase of my work 4 months ago and how far I've come.
                 This application is designed to aid your search in your quest to adopt a dog by providing
                 a search for all pets adoptable within acceptable ranges for the owner (breed, distance, good with kids, etc.)
               </p>

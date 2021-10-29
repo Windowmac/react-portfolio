@@ -13,6 +13,7 @@ const FirstProject = () => (
               className="project-pic"
               src={soundgraphImg}
               alt="soundgraph pic"
+              href="https://windowmac-soundgraph.netlify.app/"
             />
           </figure>
         </div>
@@ -36,7 +37,7 @@ const FirstProject = () => (
               </a>
             </small>
             <br />
-            An interactive sound generator that allows the user to play 3 octave
+            A solo-built application. An interactive sound generator that allows the user to play 3 octave
             ranges with touches/clicks on the screen - eventually record and
             play your own sounds as well!
           </p>

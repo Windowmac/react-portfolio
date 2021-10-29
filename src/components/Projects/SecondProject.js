@@ -13,6 +13,7 @@ const SecondProject = () => (
               className="project-pic"
               src={arcadeLiteImg}
               alt="Tetris!"
+              href="https://arcade-lite.herokuapp.com/"
             />
           </figure>
         </div>
@@ -35,7 +36,7 @@ const SecondProject = () => (
                 deployed
               </a>
             </small>
-            <br />A React app designed to play Tetris! Uses Context API to change state and set timers/ check piece movement. Top scores stored in MongoDB via Apollo Client
+            <br />A team-built application. A React app designed to play Tetris! Uses Context API to change state and set timers/ check piece movement. Top scores stored in MongoDB via Apollo Client
           </p>
           <p>
             <strong>Stack: </strong>
