@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.80f3ad50.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.72c8e079.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.72c8e079.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.488e10d5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.488e10d5.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.7530632e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7530632e.js.map",
     "static/css/2.41953c31.chunk.css": "/react-portfolio/static/css/2.41953c31.chunk.css",
@@ -14,9 +14,9 @@
     "static/js/2.da77b03e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.da77b03e.chunk.js.LICENSE.txt",
     "static/media/Arcade-Lite-img.93301ad1.png": "/react-portfolio/static/media/Arcade-Lite-img.93301ad1.png",
     "static/media/Doggo-finder-page1.2a44580a.png": "/react-portfolio/static/media/Doggo-finder-page1.2a44580a.png",
-    "static/media/Full-Stack-Resume-10-21.ca665df5.pdf": "/react-portfolio/static/media/Full-Stack-Resume-10-21.ca665df5.pdf",
+    "static/media/Full-Stack-Resume-10-21.93f2e138.pdf": "/react-portfolio/static/media/Full-Stack-Resume-10-21.93f2e138.pdf",
     "static/media/Headshot-cropped.7669e2e4.jpg": "/react-portfolio/static/media/Headshot-cropped.7669e2e4.jpg",
-    "static/media/resume-img.81e548cc.png": "/react-portfolio/static/media/resume-img.81e548cc.png",
+    "static/media/resume-img.67c48f65.png": "/react-portfolio/static/media/resume-img.67c48f65.png",
     "static/media/soundgraph-play.dc0e0b25.png": "/react-portfolio/static/media/soundgraph-play.dc0e0b25.png"
   },
   "entrypoints": [
@@ -24,6 +24,6 @@
     "static/css/2.41953c31.chunk.css",
     "static/js/2.da77b03e.chunk.js",
     "static/css/main.80f3ad50.chunk.css",
-    "static/js/main.72c8e079.chunk.js"
+    "static/js/main.488e10d5.chunk.js"
   ]
 }
