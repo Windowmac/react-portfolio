@@ -1,4 +1,4 @@
-import soundgraphImg from './images/soundgraph-play.png';
+import arcadeLiteImg from './images/Arcade-Lite-img.png';
 
 const FirstProject = () => (
   <div
@@ -11,19 +11,19 @@ const FirstProject = () => (
           <figure className="image">
             <img
               className="project-pic"
-              src={soundgraphImg}
-              alt="soundgraph pic"
-              href="https://windowmac-soundgraph.netlify.app/"
+              src={arcadeLiteImg}
+              alt="Tetris!"
+              href="https://arcade-lite.herokuapp.com/"
             />
           </figure>
         </div>
         <div className="column">
           <p>
-            <strong>soundgraph</strong>{' '}
+            <strong>Arcade-Lite</strong>{' '}
             <small>
               <a
                 className="project-link-tag"
-                href="https://github.com/Windowmac/soundgraph"
+                href="https://github.com/Windowmac/arcade-lite"
               >
                 github
               </a>
@@ -31,20 +31,18 @@ const FirstProject = () => (
             <small>
               <a
                 className="project-link-tag"
-                href="https://windowmac-soundgraph.netlify.app/"
+                href="https://arcade-lite.herokuapp.com/"
               >
                 deployed
               </a>
             </small>
-            <br />
-            A solo-built application. An interactive sound generator that allows the user to play 3 octave
-            ranges with touches/clicks on the screen - eventually record and
-            play your own sounds as well!
+            <br />A team-built application. A React app designed to play Tetris!
+            Uses Context API to change state and set timers/ check piece
+            movement. Top scores stored in MongoDB via Apollo Client
           </p>
           <p>
             <strong>Stack: </strong>
-            MongoDB, Lambda, Javascript, HTML/CSS, AudioContext / MediaRecorder
-            API, Bulma
+            GraphQL, React, Apollo Server/Client, Mongoose, Context API
           </p>
         </div>
       </div>

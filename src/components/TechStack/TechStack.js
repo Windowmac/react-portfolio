@@ -13,7 +13,7 @@ const TechStack = () => (
       </h4>
     </div>
     <div className="block">
-      <h4>I am currently assisting teaching coding students at University of Oregon's Web Development Bootcamp. I am loving the people, the materials, and driving home the fundamentals of great software. And learning plenty, myself!
+      <h4>I am currently assisting teaching coding students at University of Oregon's Web Development Bootcamp. I am loving the people, the materials, and driving home the fundamentals of great software in the most modern tech stacks.
       </h4>
     </div>
   </div>

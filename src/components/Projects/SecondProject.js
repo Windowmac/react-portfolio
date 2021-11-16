@@ -1,4 +1,4 @@
-import arcadeLiteImg from './images/Arcade-Lite-img.png';
+import soundgraphImg from './images/soundgraph-play.png';
 
 const SecondProject = () => (
   <div
@@ -11,19 +11,19 @@ const SecondProject = () => (
           <figure className="image">
             <img
               className="project-pic"
-              src={arcadeLiteImg}
-              alt="Tetris!"
-              href="https://arcade-lite.herokuapp.com/"
+              src={soundgraphImg}
+              alt="soundgraph pic"
+              href="https://windowmac-soundgraph.netlify.app/"
             />
           </figure>
         </div>
         <div className="column">
           <p>
-            <strong>Arcade-Lite</strong>{' '}
+            <strong>soundgraph</strong>{' '}
             <small>
               <a
                 className="project-link-tag"
-                href="https://github.com/Windowmac/arcade-lite"
+                href="https://github.com/Windowmac/soundgraph"
               >
                 github
               </a>
@@ -31,16 +31,19 @@ const SecondProject = () => (
             <small>
               <a
                 className="project-link-tag"
-                href="https://arcade-lite.herokuapp.com/"
+                href="https://windowmac-soundgraph.netlify.app/"
               >
                 deployed
               </a>
             </small>
-            <br />A team-built application. A React app designed to play Tetris! Uses Context API to change state and set timers/ check piece movement. Top scores stored in MongoDB via Apollo Client
+            <br />A solo-built application. An interactive sound generator that
+            allows the user to play 3 octave ranges with touches/clicks on the
+            screen - eventually record and play your own sounds as well!
           </p>
           <p>
             <strong>Stack: </strong>
-            GraphQL, React, Apollo Server/Client, Mongoose, Context API
+            MongoDB, Lambda, Javascript, HTML/CSS, AudioContext / MediaRecorder
+            API, Bulma
           </p>
         </div>
       </div>

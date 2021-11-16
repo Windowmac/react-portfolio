@@ -1,6 +1,6 @@
 import './Resume.css';
 import resumeImg from './resume-img.png';
-import resumePdf from './Full-Stack-Resume-10-21.pdf';
+import resumePdf from './Full-Stack-Resume-11-21.pdf';
 
 
 const Resume = (props) => (
@@ -15,7 +15,7 @@ const Resume = (props) => (
             href={resumePdf}
             download
           >
-            <img id="resume-pic" src={resumeImg} alt="resume!" />
+            <img id="resume-pic" src={resumeImg} alt="Download Resume" />
           </a>
         </figure>
       </div>
