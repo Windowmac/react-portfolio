@@ -1,4 +1,4 @@
-import soundgraphImg from './images/soundgraph-play.png';
+import techBlogImg from './images/tech-blog-image.png';
 
 const SecondProject = () => (
   <div
@@ -11,19 +11,19 @@ const SecondProject = () => (
           <figure className="image">
             <img
               className="project-pic"
-              src={soundgraphImg}
-              alt="soundgraph pic"
-              href="https://windowmac-soundgraph.netlify.app/"
+              src={techBlogImg}
+              alt="tech-blog post pic"
+              href="https://agile-fjord-86580.herokuapp.com/"
             />
           </figure>
         </div>
         <div className="column">
           <p>
-            <strong>soundgraph</strong>{' '}
+            <strong>Tech Blog</strong>{' '}
             <small>
               <a
                 className="project-link-tag"
-                href="https://github.com/Windowmac/soundgraph"
+                href="https://github.com/Windowmac/tech-blog"
               >
                 github
               </a>
@@ -31,19 +31,17 @@ const SecondProject = () => (
             <small>
               <a
                 className="project-link-tag"
-                href="https://windowmac-soundgraph.netlify.app/"
+                href="https://agile-fjord-86580.herokuapp.com/"
               >
                 deployed
               </a>
             </small>
-            <br />A solo-built application. An interactive sound generator that
-            allows the user to play 3 octave ranges with touches/clicks on the
-            screen - eventually record and play your own sounds as well!
+            <br />A solo-built application. Handleblars viewengine, Express / Sequelize backend. A blog app that allows the user to create an account, post, and comment on posts. Keeps track of user through cookies to allow easy return. Hashes the passwords for security. Functionally sound, sparsely designed.
           </p>
           <p>
             <strong>Stack: </strong>
-            MongoDB, Lambda, Javascript, HTML/CSS, AudioContext / MediaRecorder
-            API, Bulma
+            SQL, Sequelize, Heroku, Javascript, HTML/CSS, Handlebars, Express, Cookies, MVC layout, bcrypt
+            REST APIs, Bulma
           </p>
         </div>
       </div>

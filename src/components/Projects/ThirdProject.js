@@ -1,56 +1,54 @@
-import doggoPic from './images/Doggo-finder-page1.png';
+import soundgraphImg from './images/soundgraph-play.png';
 
 const ThirdProject = () => (
-    <div
-      className="box project-box"
-      style={{ margin: '2rem', padding: '1.25rem' }}
-    >
-      <div className="box">
-        <div className="columns">
-          <div className="column">
-            <figure
-              className="image"
-            >
-              <img
-                className="project-pic"
-                src={doggoPic}
-                alt="Doggo Finder first page"
-              />
-            </figure>
-          </div>
-          <div className="column">
-
-              <p>
-                <strong>Doggo Finder</strong>{' '}
-                <small>
-                  <a
-                    className="project-link-tag"
-                    href="https://github.com/Windowmac/Pet_Locator"
-                  >
-                    github
-                  </a>
-                </small>{' '}
-                <small>
-                  <a
-                    className="project-link-tag"
-                    href="https://windowmac.github.io/Pet_Locator/"
-                  >
-                    deployed
-                  </a>
-                </small>
-                <br />
-                A team built application. A showcase of my work 4 months ago and how far I've come.
-                This application is designed to aid your search in your quest to adopt a dog by providing
-                a search for all pets adoptable within acceptable ranges for the owner (breed, distance, good with kids, etc.)
-              </p>
-              <p>
-                <strong>Stack: </strong>
-                Materialize CSS, JavaScript, HTML, RESTful APIs
-              </p>
-          </div>
+  <div
+    className="box project-box"
+    style={{ margin: '2rem', padding: '1.25rem' }}
+  >
+    <div className="box">
+      <div className="columns">
+        <div className="column">
+          <figure className="image">
+            <img
+              className="project-pic"
+              src={soundgraphImg}
+              alt="soundgraph pic"
+              href="https://windowmac-soundgraph.netlify.app/"
+            />
+          </figure>
+        </div>
+        <div className="column">
+          <p>
+            <strong>soundgraph</strong>{' '}
+            <small>
+              <a
+                className="project-link-tag"
+                href="https://github.com/Windowmac/soundgraph"
+              >
+                github
+              </a>
+            </small>{' '}
+            <small>
+              <a
+                className="project-link-tag"
+                href="https://windowmac-soundgraph.netlify.app/"
+              >
+                deployed
+              </a>
+            </small>
+            <br />A solo-built application. An interactive sound generator that
+            allows the user to play 3 octave ranges with touches/clicks on the
+            screen - eventually record and play your own sounds as well!
+          </p>
+          <p>
+            <strong>Stack: </strong>
+            MongoDB, Lambda, Javascript, HTML/CSS, AudioContext / MediaRecorder
+            API, Bulma
+          </p>
         </div>
       </div>
     </div>
+  </div>
   );
   
   export default ThirdProject;
