@@ -26,7 +26,8 @@ const Graph = (props) => {
                   'whitesmoke',
                   'olive',
                   'violet',
-                  'gold'
+                  'gold',
+                  'red'
                 ],
                 borderColor: 'gold',
                 data: dataSet,

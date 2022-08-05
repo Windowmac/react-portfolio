@@ -1,6 +1,6 @@
 import './Resume.css';
 import resumeImg from './resume-img.png';
-import resumePdf from './Full-Stack-Resume-11-21.pdf';
+import resumePdf from './Mac_Strommer_SE_Resume.pdf';
 
 
 const Resume = (props) => (
